@@ -30,11 +30,11 @@ public class OneOfEachStats {
 			while(check)//family simulation
 			{
 				kidCounter++;
-				if(boyGirl == 0)
+				if(boyGirl <= 0.5)
 				{
 					girl = true;
 				}
-				if(boyGirl == 1)
+				if(boyGirl > 0.5)
 				{
 					boy = true;
 				}
